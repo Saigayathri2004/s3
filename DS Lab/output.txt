@@ -109,6 +109,15 @@ cec@cec-ThinkCentre-M93p:~$ python3 list2.py
    names  age  score
 0  alice   25     88
 1    bob   30     76
+cec@cec-ThinkCentre-M93p:~$ gedit cvs1.py
+cec@cec-ThinkCentre-M93p:~$ python3 cvs1.py
+   country  goldmedal
+0       us         46
+1   britan         27
+2    china         26
+3   russia         19
+4  germany         17
+
 _---------------------
    names  age  score
 0  alice   25     88
