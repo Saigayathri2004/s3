@@ -1,1 +1,117 @@
 
+cec@cec-ThinkCentre-M93p:~$ gedit listtoseri.py
+cec@cec-ThinkCentre-M93p:~$ python3 listtoseri.py
+Traceback (most recent call last):
+  File "listtoseri.py", line 3, in <module>
+    pd.series(names)
+AttributeError: module 'pandas' has no attribute 'series'
+cec@cec-ThinkCentre-M93p:~$ gedit listtoseri.py
+cec@cec-ThinkCentre-M93p:~$ python3 listtoseri.py
+Traceback (most recent call last):
+  File "listtoseri.py", line 4, in <module>
+    pd.show()
+AttributeError: module 'pandas' has no attribute 'show'
+cec@cec-ThinkCentre-M93p:~$ gedit listtoseri.py
+cec@cec-ThinkCentre-M93p:~$ python3 listtoseri.py
+['alice', 'bob', 'charle']
+0     alice
+1       bob
+2    charle
+dtype: object
+cec@cec-ThinkCentre-M93p:~$ gedit dict.py
+cec@cec-ThinkCentre-M93p:~$ python3 dict.py
+  File "dict.py", line 3
+    age:[25,30,35]
+    ^
+SyntaxError: invalid syntax
+cec@cec-ThinkCentre-M93p:~$ gedit dict.py
+cec@cec-ThinkCentre-M93p:~$ python3 dict.py
+Traceback (most recent call last):
+  File "dict.py", line 2, in <module>
+    data={names:['alice','bob','charle'],age:[25,30,35],score:[88,76,91]}
+NameError: name 'names' is not defined
+cec@cec-ThinkCentre-M93p:~$ gedit dict.py
+cec@cec-ThinkCentre-M93p:~$ python3 dict.py
+Traceback (most recent call last):
+  File "dict.py", line 3, in <module>
+    mydata=pd.Dataframe(data)
+AttributeError: module 'pandas' has no attribute 'Dataframe'
+cec@cec-ThinkCentre-M93p:~$ gedit dict.py
+cec@cec-ThinkCentre-M93p:~$ python3 dict.py
+    names  age  score
+0   alice   25     88
+1     bob   30     76
+2  charle   35     91
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+    names  age  score
+0   alice   25     88
+1     bob   30     76
+2  charle   35     91
+two way two row
+Traceback (most recent call last):
+  File "list2.py", line 6, in <module>
+    print(df[0:2])
+NameError: name 'df' is not defined
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+    names  age  score
+0   alice   25     88
+1     bob   30     76
+2  charle   35     91
+two way two row
+Traceback (most recent call last):
+  File "list2.py", line 6, in <module>
+    a=df[0:2]
+NameError: name 'df' is not defined
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+    names  age  score
+0   alice   25     88
+1     bob   30     76
+2  charle   35     91
+two way two row
+Traceback (most recent call last):
+  File "list2.py", line 6, in <module>
+    a=DataFrame[0:2]
+NameError: name 'DataFrame' is not defined
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+  File "list2.py", line 11
+    
+          ^
+SyntaxError: unexpected EOF while parsing
+cec@cec-ThinkCentre-M93p:~$ 
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+  File "list2.py", line 7
+    
+          ^
+SyntaxError: unexpected EOF while parsing
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+   names  age  score
+0  alice   25     88
+1    bob   30     76
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+  File "list2.py", line 4
+    print(mydata(0:2))
+                  ^
+SyntaxError: invalid syntax
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+   names  age  score
+0  alice   25     88
+1    bob   30     76
+cec@cec-ThinkCentre-M93p:~$ gedit list2.py
+cec@cec-ThinkCentre-M93p:~$ python3 list2.py
+   names  age  score
+0  alice   25     88
+1    bob   30     76
+_---------------------
+   names  age  score
+0  alice   25     88
+1    bob   30     76
+cec@cec-ThinkCentre-M93p:~$ 
+
