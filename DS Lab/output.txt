@@ -124,3 +124,13 @@ _---------------------
 1    bob   30     76
 cec@cec-ThinkCentre-M93p:~$ 
 
+python3 knn.py
+Accuracy : 0.9777777777777777
+enter the sample data
+sepal length:3
+sepal width:4
+petal length:6
+petal width:7
+['virginica']
+
+
